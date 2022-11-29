@@ -20,6 +20,7 @@
  * and
  * concat
  */
+
 //1. Define a function named isTrue that takes in any input and returns true if the input provided is
 // exactly equal to true in value and data type.
 
@@ -55,6 +56,7 @@ function isEven(input){
 function isIdentical(input1,input2){
     return input1 === input2;
 }
+
 //7. Define a function named isEqual that takes in two input arguments. If each argument is equal only in value,
 // then return true. Otherwise return false.
 
@@ -73,7 +75,7 @@ function or(input1,input2) {
 // of both inputs.
 
 function and(input1,input2) {
- return input1 && input2;
+    return input1 && input2;
 }
 //10.Define a function named concat that takes in two input arguments. If both arguments are strings, then return
 // the concatenated result. If two numbers are provided, then return the string concatenation of each set of numerals.
